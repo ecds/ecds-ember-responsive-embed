@@ -1,12 +1,19 @@
+[![Build Status](https://travis-ci.org/ecds/ecds-ember-responsive-embed.svg?branch=develop)](https://travis-ci.org/ecds/ecds-ember-responsive-embed)
+
 # ecds-ember-responsive-embed
 
-This README outlines the details of collaborating on this Ember addon.
+Simple component for responsive Youtube and Viemo embeds. Responsive code based on (Embed Responsively)[http://embedresponsively.com/] and regex code for parsing urls from (Ember Lazy Video)[https://github.com/poteto/ember-lazy-video].
 
-## Installation
+## Install from GitHub
 
-* `git clone <repository-url>` this repository
-* `cd ecds-ember-responsive-embed`
-* `npm install`
+Add to package.json
+
+```
+"ecds-ember-responsive-embed": "git://github.com/ecds/ecds-ember-responsive-embed.git#develop"
+```
+
+Then
+* `yarn install`
 
 ## Running
 

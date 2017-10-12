@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ecds-ember-responsive-embed'
+    name: 'ecds-ember-responsive-embed'
 };

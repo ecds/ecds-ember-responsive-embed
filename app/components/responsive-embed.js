@@ -1,0 +1,1 @@
+export { default } from 'ecds-ember-responsive-embed/components/responsive-embed';

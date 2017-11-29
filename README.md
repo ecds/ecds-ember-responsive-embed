@@ -2,7 +2,7 @@
 
 # ecds-ember-responsive-embed
 
-Simple component for responsive Youtube and Viemo embeds. Responsive code based on (Embed Responsively)[http://embedresponsively.com/] and regex code for parsing urls from (Ember Lazy Video)[https://github.com/poteto/ember-lazy-video].
+Simple component for responsive Youtube and Viemo embeds. Responsive code based on [Embed Responsively](http://embedresponsively.com/) and regex code for parsing urls from [Ember Lazy Video](https://github.com/poteto/ember-lazy-video).
 
 ## Install from GitHub
 
@@ -14,6 +14,13 @@ Add to package.json
 
 Then
 * `yarn install`
+
+## Usage
+
+```
+{{responsive-embed embedCode='https://www.youtube.com/watch?v=lVehcuJXe6I'}}
+{{responsive-embed embedCode='https://vimeo.com/1583338'}}
+```
 
 ## Running
 
